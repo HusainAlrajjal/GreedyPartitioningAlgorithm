@@ -1,0 +1,39 @@
+COE526 - HW1:
+
+++++++++++++(GreedyPartitioningAlgorithm.py)++++++++++++:
+-Task 2 implemention.
+
+Assumptions:
+1- the dataset must be numerical dataset.
+2- the dataset must have ONE sensetive attribute and it has to be the last column.
+3- the dataset should be in (the source folder) and in .txt format.
+4- the dataset must split between its record values using TAB space (or \t or 	).
+
+Usage:
+- open the source file(GreedyPartitioningAlgorithm.py) and go to the main().
+- Enter the name of the txt file in (address variable).
+- Choose the K value you want
+	- the provided code will test the values [3,5,7,9] and output the result.
+- Run 
+- in the same the source folder, the k-anonymized table will be stored in a file with this name structure:
+	- anonymized_result-{dataset_name}-k({k_value}).txt
+- the output file will include CDM, I_loss, Utility, and Frequncy_set of each EC.
+
+- in the same the source folder, the table of non-l-divergentrec ECs will be stored in a file with this name structure:
+	- violating {l_value}-diveristy ECs -{dataset_name}-k({k_value}).txt
+- the output file will include ECs that violate l-diversity table.
+
+
++++++++++++(Linkage Attack.py)+++++++++++:
+- Task 1 implemention.
+- hardcoded to do this task.
+
+Assumptions:
+1- the dataset must be (ipums.txt) in its numerical version that is provided in the source folder.
+2- the supplied dataset must be (supplied_text.txt) in its numerical version that is provided in the source folder.
+
+Usage:
+- open the source file(Linkage Attack.py) and go to the main().
+- Run 
+- in the same the source folder, the table resulted of the attack will be stored in a file with this name :
+	- Linkage Attack Result on (ipums) file.txt
